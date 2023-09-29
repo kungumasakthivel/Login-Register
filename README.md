@@ -1,6 +1,5 @@
 # Login-Register
 This repo consist of Express API and mongoose for authentication purpose.
-
 This is the simple and kick start code for gitting into user authentication using
 ExpressJS and MongoDB 
 
@@ -10,3 +9,7 @@ used to connect the mongodb atles via API call. Which was trigered and configure
 in the folder which was not exist in the repo.
 So, create file in root folder with name as `.env` without any extension and write
 `DB_URL = "PASTE_YOUR_MONGO_DB_CONNECTION_URL"`
+
+In the userModel.js file consist of creating and extracting records from the DB
+if the user exist else it will create new table for particular in the DB with
+`Email` and `Password` as their attributes.
