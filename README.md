@@ -13,3 +13,6 @@ So, create file in root folder with name as `.env` without any extension and wri
 In the userModel.js file consist of creating and extracting records from the DB
 if the user exist else it will create new table for particular in the DB with
 `Email` and `Password` as their attributes.
+
+
+!!! Need to include node_modules package before running... the code !!!
