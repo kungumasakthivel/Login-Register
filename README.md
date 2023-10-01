@@ -18,8 +18,10 @@ if the user exist else it will create new table for particular in the DB with
 !!! Need to include node_modules package before running... the code !!!
 
 # Root folder 
-auth.js file work's like authenticator which helps to authenticate the existing jwt token from the
+`auth.js` file work's like authenticator which helps to authenticate the existing jwt token from the
 user side and verfies the user wheather they have access to route to the specific route int the
 application.
 This auth.js file export a function which help's the end point to verify the user. THis function
 passed as an middleware function in the API function's.
+
+
