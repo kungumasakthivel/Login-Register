@@ -31,4 +31,8 @@ application.
 This auth.js file export a function which help's the end point to verify the user. THis function
 passed as an middleware function in the API function's.
 
+Don't forgot to run `npm install` to install all dependency mentioned in the padkage.json file.
+It help's to install all the dependency in one run.
+
+!!! Happy  Coding !!!
 
