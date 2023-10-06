@@ -29,7 +29,8 @@ if the user exist else it will create new table for particular in the DB with
 user side and verfies the user wheather they have access to route to the specific route int the
 application.
 This auth.js file export a function which help's the end point to verify the user. THis function
-passed as an middleware function in the API function's.
+passed as an middleware function in the API function's. API (end points) are written here with prefered
+methods like   get, put, post or DELETE are over here.
 
 `app.js' file consist of third party packages which help to connect the database, encrypt the 
 user password, generate JWT token for sub-request authentication and more.
