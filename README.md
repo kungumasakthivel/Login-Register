@@ -33,7 +33,7 @@ passed as an middleware function in the API function's.
 
 `app.js' file consist of third party packages which help to connect the database, encrypt the 
 user password, generate JWT token for sub-request authentication and more. API (end points) are 
-written here with prefered methods like   get, put, post or DELETE are over here.
+written here with prefered methods like GET, PUT, POST or DELETE are over here.
 
 Don't forgot to run `npm install` to install all dependency mentioned in the padkage.json file.
 It help's to install all the dependency in one run.
